@@ -1,0 +1,92 @@
+<style>
+  p.TextScreen {
+    margin-top: -4%;
+    margin-bottom: 15%;
+  }
+</style>
+
+<p class="TextScreen" align="center">
+  <canvas id="canvaRound" width="500" height="110" align="right" class="box"></canvas>
+</p>
+
+<div class="stack">
+  <div class="cardDeckRiskyRight"></div>
+  <div class="cardDeckRiskyLeft"></div>
+  <div class="cardDeckSafeRight"></div>
+  <div class="cardDeckSafeLeft"></div>
+  <div class="cardRiskyLeft"></div>
+  <div class="cardRiskyRight"></div>
+  <div class="cardSafeLeft"></div>
+  <div class="cardSafeRight"></div>
+
+  <div class="text0Left">0</div>
+  <div class="text0Right">0</div>
+
+  <div class="text30WinRight">+30</div>
+  <div class="text30LoseRight">-30</div>
+  <div class="text10WinRight">+10</div>
+  <div class="text10LoseRight">-10</div>
+  <div class="text30WinLeft">+30</div>
+  <div class="text30LoseLeft">-30</div>
+  <div class="text10WinLeft">+10</div>
+  <div class="text10LoseLeft">-10</div>
+
+  <div class="text60WinRight">+60</div>
+  <div class="text60LoseRight">-60</div>
+  <div class="text20WinRight">+20</div>
+  <div class="text20LoseRight">-20</div>
+  <div class="text60WinLeft">+60</div>
+  <div class="text60LoseLeft">-60</div>
+  <div class="text20WinLeft">+20</div>
+  <div class="text20LoseLeft">-20</div>
+
+  <div class="NextTrialChosenRiskyLeft">Next round</div>
+  <div class="NextTrialChosenRiskyRight">Next round</div>
+  <div class="forgoneNextTrialChosenRiskyLeft">Next round</div>
+  <div class="forgoneNextTrialChosenRiskyRight">Next round</div>
+  <div class="NextTrialChosenSafeLeft">Next round</div>
+  <div class="NextTrialChosenSafeRight">Next round</div>
+  <div class="forgoneNextTrialChosenSafeLeft">Next round</div>
+  <div class="forgoneNextTrialChosenSafeRight">Next round</div>
+
+  <div class="LastTrialChosenRiskyLeft">Conclude the game</div>
+  <div class="LastTrialChosenRiskyRight">Conclude the game</div>
+  <div class="forgoneLastTrialChosenRiskyLeft">Conclude the game</div>
+  <div class="forgoneLastTrialChosenRiskyRight">Conclude the game</div>
+  <div class="LastTrialChosenSafeLeft">Conclude the game</div>
+  <div class="LastTrialChosenSafeRight">Conclude the game</div>
+  <div class="forgoneLastTrialChosenSafeLeft">Conclude the game</div>
+  <div class="forgoneLastTrialChosenSafeRight">Conclude the game</div>
+
+  <div class="lose60Left">-60</div>
+  <div class="lose20Left">-20</div>
+  <div class="risky0Left">0</div>
+  <div class="win20Left">+20</div>
+  <div class="win60Left">+60</div>
+  <div class="lose60Right">-60</div>
+  <div class="lose20Right">-20</div>
+  <div class="risky0Right">0</div>
+  <div class="win20Right">+20</div>
+  <div class="win60Right">+60</div>
+
+  <div class="lose30Left">-30</div>
+  <div class="lose10Left">-10</div>
+  <div class="safe0Left">0</div>
+  <div class="win10Left">+10</div>
+  <div class="win30Left">+30</div>
+  <div class="lose30Right">-30</div>
+  <div class="lose10Right">-10</div>
+  <div class="safe0Right">0</div>
+  <div class="win10Right">+10</div>
+  <div class="win30Right">+30</div>
+
+
+</div>
+
+<p class="TextScreen" align="center">
+  <canvas id="ctx" width="600" height="170" align="right" class="box"></canvas>
+</p>
+
+<link rel="stylesheet" href="CardGame.css">
+
+<script src="CardGame.js"></script>

@@ -1,0 +1,1827 @@
+/*------------ PARENT OBJECTS ------------*/
+.stack {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -5vw);
+  margin-top: -13vw;
+  margin-bottom: 0vw;
+}
+
+/* Buttons Left */
+
+.NextTrialChosenRiskyLeft{
+  min-width: 30%;
+  min-height: 10%;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, 120%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  border-radius: 1.5rem;
+  transition: transform 200ms;
+  background: rgba(255, 255, 255, 0);
+  background-position: calc(50%);
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.forgoneNextTrialChosenRiskyLeft{
+  min-width: 30%;
+  min-height: 10%;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, 120%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  border-radius: 1.5rem;
+  transition: transform 200ms;
+  background: rgba(255, 255, 255, 0);
+  background-position: calc(50%);
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.NextTrialChosenSafeLeft{
+  min-width: 30%;
+  min-height: 10%;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, 120%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  border-radius: 1.5rem;
+  transition: transform 200ms;
+  background: rgba(255, 255, 255, 0);
+  background-position: calc(50%);
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.forgoneNextTrialChosenSafeLeft{
+  min-width: 30%;
+  min-height: 10%;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, 120%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  border-radius: 1.5rem;
+  transition: transform 200ms;
+  background: rgba(255, 255, 255, 0);
+  background-position: calc(50%);
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.LastTrialChosenRiskyLeft{
+  min-width: 30%;
+  min-height: 10%;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, 120%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  border-radius: 1.5rem;
+  transition: transform 200ms;
+  background: rgba(255, 255, 255, 0);
+  background-position: calc(50%);
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.forgoneLastTrialChosenRiskyLeft{
+  min-width: 30%;
+  min-height: 10%;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, 120%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  border-radius: 1.5rem;
+  transition: transform 200ms;
+  background: rgba(255, 255, 255, 0);
+  background-position: calc(50%);
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.LastTrialChosenSafeLeft{
+  min-width: 30%;
+  min-height: 10%;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, 120%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  border-radius: 1.5rem;
+  transition: transform 200ms;
+  background: rgba(255, 255, 255, 0);
+  background-position: calc(50%);
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.forgoneLastTrialChosenSafeLeft{
+  min-width: 30%;
+  min-height: 10%;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, 120%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  border-radius: 1.5rem;
+  transition: transform 200ms;
+  background: rgba(255, 255, 255, 0);
+  background-position: calc(50%);
+  cursor: pointer;
+  visibility: hidden;
+}
+
+/* Buttons right */
+
+.NextTrialChosenRiskyRight{
+  min-width: 30%;
+  min-height: 10%;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, 120%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  border-radius: 1.5rem;
+  transition: transform 200ms;
+  background: rgba(255, 255, 255, 0);
+  background-position: calc(50%);
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.forgoneNextTrialChosenRiskyRight{
+  min-width: 30%;
+  min-height: 10%;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, 120%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  border-radius: 1.5rem;
+  transition: transform 200ms;
+  background: rgba(255, 255, 255, 0);
+  background-position: calc(50%);
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.NextTrialChosenSafeRight{
+  min-width: 30%;
+  min-height: 10%;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, 120%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  border-radius: 1.5rem;
+  transition: transform 200ms;
+  background: rgba(255, 255, 255, 0);
+  background-position: calc(50%);
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.forgoneNextTrialChosenSafeRight{
+  min-width: 30%;
+  min-height: 10%;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, 120%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  border-radius: 1.5rem;
+  transition: transform 200ms;
+  background: rgba(255, 255, 255, 0);
+  background-position: calc(50%);
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.LastTrialChosenRiskyRight{
+  min-width: 30%;
+  min-height: 10%;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, 120%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  border-radius: 1.5rem;
+  transition: transform 200ms;
+  background: rgba(255, 255, 255, 0);
+  background-position: calc(50%);
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.forgoneLastTrialChosenRiskyRight{
+  min-width: 30%;
+  min-height: 10%;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, 120%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  border-radius: 1.5rem;
+  transition: transform 200ms;
+  background: rgba(255, 255, 255, 0);
+  background-position: calc(50%);
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.LastTrialChosenSafeRight{
+  min-width: 30%;
+  min-height: 10%;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, 120%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  border-radius: 1.5rem;
+  transition: transform 200ms;
+  background: rgba(255, 255, 255, 0);
+  background-position: calc(50%);
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.forgoneLastTrialChosenSafeRight{
+  min-width: 30%;
+  min-height: 10%;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, 120%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  border-radius: 1.5rem;
+  transition: transform 200ms;
+  background: rgba(255, 255, 255, 0);
+  background-position: calc(50%);
+  cursor: pointer;
+  visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+/* Cards */
+
+.cardDeckRiskyLeft{
+  width: 30%;
+  min-height: 40%;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -5%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  box-shadow: 0 5px 10px 0 #00000040, 0 15px 20px 0#00000020;
+  transition: transform 200ms;
+  background: url("https://raw.githubusercontent.com/aleBogani/CFTCuriosity/main/BackRisky1.png"); no-repeat center center;
+  background-position: calc(50%);
+}
+
+.cardDeckRiskyRight{
+  width: 30%;
+  min-height: 40%;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -5%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  box-shadow: 0 5px 10px 0 #00000040, 0 15px 20px 0#00000020;
+  transition: transform 200ms;
+  background: url("https://raw.githubusercontent.com/aleBogani/CFTCuriosity/main/BackRisky1.png"); no-repeat center center;
+  background-position: calc(50%);
+}
+
+.cardDeckSafeLeft{
+  width: 30%;
+  min-height: 40%;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -5%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  box-shadow: 0 5px 10px 0 #00000040, 0 15px 20px 0#00000020;
+  transition: transform 200ms;
+  background: url("https://raw.githubusercontent.com/aleBogani/CFTCuriosity/main/BackSafe1.png"); no-repeat center center;
+  background-position: calc(50%);
+}
+
+.cardDeckSafeRight{
+  width: 30%;
+  min-height: 40%;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -5%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  box-shadow: 0 5px 10px 0 #00000040, 0 15px 20px 0#00000020;
+  transition: transform 200ms;
+  background: url("https://raw.githubusercontent.com/aleBogani/CFTCuriosity/main/BackSafe1.png"); no-repeat center center;
+  background-position: calc(50%);
+}
+
+.cardRiskyLeft{
+  width: 30%;
+  min-height: 40%;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 10rem;
+  color: rgb(0, 0, 0, 0);
+  border-radius: 2rem;
+  box-shadow: 0 5px 10px 0 #00000040, 0 15px 20px 0#00000020;
+  transition: transform 200ms;
+  background: url("https://raw.githubusercontent.com/aleBogani/CFTCuriosity/main/BackRisky1.png"); no-repeat center center;
+  background-position: calc(50%);
+  cursor: pointer;
+}
+
+.cardRiskyRight{
+  width: 30%;
+  min-height: 40%;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 10rem;
+  color: rgb(0, 0, 0, 0);
+  border-radius: 2rem;
+  box-shadow: 0 5px 10px 0 #00000040, 0 15px 20px 0#00000020;
+  transition: transform 200ms;
+  background: url("https://raw.githubusercontent.com/aleBogani/CFTCuriosity/main/BackRisky1.png"); no-repeat center center;
+  background-position: calc(50%);
+  cursor: pointer;
+}
+
+.cardSafeLeft{
+  width: 30%;
+  min-height: 40%;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  box-shadow: 0 5px 10px 0 #00000040, 0 15px 20px 0#00000020;
+  transition: transform 200ms;
+  background: url("https://raw.githubusercontent.com/aleBogani/CFTCuriosity/main/BackSafe1.png"); no-repeat center center;
+  background-position: calc(50%);
+  cursor: pointer;
+}
+
+.cardSafeRight{
+  width: 30%;
+  min-height: 40%;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  box-shadow: 0 5px 10px 0 #00000040, 0 15px 20px 0#00000020;
+  transition: transform 200ms;
+  background: url("https://raw.githubusercontent.com/aleBogani/CFTCuriosity/main/BackSafe1.png"); no-repeat center center;
+  background-position: calc(50%);
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+/* Texts */
+
+.text0Right {
+  position: absolute;
+  bottom: 65px;
+  right: 63px;
+  font-family: sans-serif;
+  font-size: 4rem;
+  color: grey;
+  visibility: hidden;
+}
+.text0Left {
+  position: absolute;
+  bottom: 65px;
+  left: 63px;
+  font-family: sans-serif;
+  font-size: 4rem;
+  color: grey;
+  visibility: hidden;
+}
+
+
+.text60WinRight {
+  position: absolute;
+  bottom: 65px;
+  right: 27px;
+  font-family: sans-serif;
+  font-size: 4rem;
+  color: green;
+  visibility: hidden;
+}
+.text60WinLeft {
+  position: absolute;
+  bottom: 65px;
+  left: 23px;
+  font-family: sans-serif;
+  font-size: 4rem;
+  color: green;
+  visibility: hidden;
+}
+.text20WinRight {
+  position: absolute;
+  bottom: 65px;
+  right: 27px;
+  font-family: sans-serif;
+  font-size: 4rem;
+  color: green;
+  visibility: hidden;
+}
+.text20WinLeft {
+  position: absolute;
+  bottom: 65px;
+  left: 23px;
+  font-family: sans-serif;
+  font-size: 4rem;
+  color: green;
+  visibility: hidden;
+}
+.text60LoseRight {
+  position: absolute;
+  bottom: 65px;
+  right: 33px;
+  font-family: sans-serif;
+  font-size: 4rem;
+  color: red;
+  visibility: hidden;
+}
+.text60LoseLeft {
+  position: absolute;
+  bottom: 65px;
+  left: 33px;
+  font-family: sans-serif;
+  font-size: 4rem;
+  color: red;
+  visibility: hidden;
+}
+.text20LoseRight {
+  position: absolute;
+  bottom: 65px;
+  right: 33px;
+  font-family: sans-serif;
+  font-size: 4rem;
+  color: red;
+  visibility: hidden;
+}
+.text20LoseLeft {
+  position: absolute;
+  bottom: 65px;
+  left: 33px;
+  font-family: sans-serif;
+  font-size: 4rem;
+  color: red;
+  visibility: hidden;
+}
+
+
+.text30WinRight {
+  position: absolute;
+  bottom: 65px;
+  right: 27px;
+  font-family: sans-serif;
+  font-size: 4rem;
+  color: green;
+  visibility: hidden;
+}
+.text30WinLeft {
+  position: absolute;
+  bottom: 65px;
+  left: 23px;
+  font-family: sans-serif;
+  font-size: 4rem;
+  color: green;
+  visibility: hidden;
+}
+.text10WinRight {
+  position: absolute;
+  bottom: 65px;
+  right: 27px;
+  font-family: sans-serif;
+  font-size: 4rem;
+  color: green;
+  visibility: hidden;
+}
+.text10WinLeft {
+  position: absolute;
+  bottom: 65px;
+  left: 23px;
+  font-family: sans-serif;
+  font-size: 4rem;
+  color: green;
+  visibility: hidden;
+}
+.text30LoseRight {
+  position: absolute;
+  bottom: 65px;
+  right: 33px;
+  font-family: sans-serif;
+  font-size: 4rem;
+  color: red;
+  visibility: hidden;
+}
+.text30LoseLeft {
+  position: absolute;
+  bottom: 65px;
+  left: 33px;
+  font-family: sans-serif;
+  font-size: 4rem;
+  color: red;
+  visibility: hidden;
+}
+.text10LoseRight {
+  position: absolute;
+  bottom: 65px;
+  right: 33px;
+  font-family: sans-serif;
+  font-size: 4rem;
+  color: red;
+  visibility: hidden;
+}
+.text10LoseLeft {
+  position: absolute;
+  bottom: 65px;
+  left: 33px;
+  font-family: sans-serif;
+  font-size: 4rem;
+  color: red;
+  visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+/* Card labels */
+
+.lose60Left{
+  width: 8%;
+  min-height: 12%;
+  position: absolute;
+  top: 32%;
+  left: 2%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: black;
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+  border-radius: 0.5rem;
+  transition: transform 200ms;
+  background: white
+}
+.lose20Left{
+  width: 8%;
+  min-height: 12%;
+  position: absolute;
+  top: 32%;
+  left: 11%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: black;
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+  border-radius: 0.5rem;
+  transition: transform 200ms;
+  background: white
+}
+.risky0Left{
+  width: 8%;
+  min-height: 12%;
+  position: absolute;
+  top: 32%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: black;
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+  border-radius: 0.5rem;
+  transition: transform 200ms;
+  background: white
+}
+.win20Left{
+  width: 8%;
+  min-height: 12%;
+  position: absolute;
+  top: 32%;
+  left: 29%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: black;
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+  border-radius: 0.5rem;
+  transition: transform 200ms;
+  background: white
+}
+.win60Left{
+  width: 8%;
+  min-height: 12%;
+  position: absolute;
+  top: 32%;
+  left: 38%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: black;
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+  border-radius: 0.5rem;
+  transition: transform 200ms;
+  background: white
+}
+
+
+.lose30Right{
+  width: 8%;
+  min-height: 12%;
+  position: absolute;
+  top: 32%;
+  right: 29%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: black;
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+  border-radius: 0.5rem;
+  transition: transform 200ms;
+  background: white
+}
+.lose10Right{
+  width: 8%;
+  min-height: 12%;
+  position: absolute;
+  top: 32%;
+  right: 20%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: black;
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+  border-radius: 0.5rem;
+  transition: transform 200ms;
+  background: white
+}
+.safe0Right{
+  width: 8%;
+  min-height: 12%;
+  position: absolute;
+  top: 32%;
+  right: 11%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: black;
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+  border-radius: 0.5rem;
+  transition: transform 200ms;
+  background: white
+}
+.win10Right{
+  width: 8%;
+  min-height: 12%;
+  position: absolute;
+  top: 32%;
+  right: 2%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: black;
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+  border-radius: 0.5rem;
+  transition: transform 200ms;
+  background: white
+}
+.win30Right{
+  width: 8%;
+  min-height: 12%;
+  position: absolute;
+  top: 32%;
+  right: -7%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: black;
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+  border-radius: 0.5rem;
+  transition: transform 200ms;
+  background: white
+}
+
+
+.lose30Left{
+  width: 8%;
+  min-height: 12%;
+  position: absolute;
+  top: 32%;
+  left: 2%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: black;
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+  border-radius: 0.5rem;
+  transition: transform 200ms;
+  background: white
+}
+.lose10Left{
+  width: 8%;
+  min-height: 12%;
+  position: absolute;
+  top: 32%;
+  left: 11%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: black;
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+  border-radius: 0.5rem;
+  transition: transform 200ms;
+  background: white
+}
+.safe0Left{
+  width: 8%;
+  min-height: 12%;
+  position: absolute;
+  top: 32%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: black;
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+  border-radius: 0.5rem;
+  transition: transform 200ms;
+  background: white
+}
+.win10Left{
+  width: 8%;
+  min-height: 12%;
+  position: absolute;
+  top: 32%;
+  left: 29%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: black;
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+  border-radius: 0.5rem;
+  transition: transform 200ms;
+  background: white
+}
+.win30Left{
+  width: 8%;
+  min-height: 12%;
+  position: absolute;
+  top: 32%;
+  left: 38%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: black;
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+  border-radius: 0.5rem;
+  transition: transform 200ms;
+  background: white
+}
+
+
+.lose60Right{
+  width: 8%;
+  min-height: 12%;
+  position: absolute;
+  top: 32%;
+  right: 29%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: black;
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+  border-radius: 0.5rem;
+  transition: transform 200ms;
+  background: white
+}
+.lose20Right{
+  width: 8%;
+  min-height: 12%;
+  position: absolute;
+  top: 32%;
+  right: 20%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: black;
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+  border-radius: 0.5rem;
+  transition: transform 200ms;
+  background: white
+}
+.risky0Right{
+  width: 8%;
+  min-height: 12%;
+  position: absolute;
+  top: 32%;
+  right: 11%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: black;
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+  border-radius: 0.5rem;
+  transition: transform 200ms;
+  background: white
+}
+.win20Right{
+  width: 8%;
+  min-height: 12%;
+  position: absolute;
+  top: 32%;
+  right: 2%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: black;
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+  border-radius: 0.5rem;
+  transition: transform 200ms;
+  background: white
+}
+.win60Right{
+  width: 8%;
+  min-height: 12%;
+  position: absolute;
+  top: 32%;
+  right: -7%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: black;
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+  border-radius: 0.5rem;
+  transition: transform 200ms;
+  background: white
+}
+
+
+
+
+
+
+
+/*------------ CHILD OBJECTS ------------*/
+
+.cardDeckRiskyRight {
+  --y: calc(-50% + 20px);
+  transform: translate(50%, var(--y)) scale(1.20);
+}
+.cardDeckRiskyLeft {
+--y: calc(-50% + 20px);
+transform: translate(-150%, var(--y)) scale(1.20);
+}
+.cardDeckSafeRight {
+  --y: calc(-50% + 20px);
+  transform: translate(50%, var(--y)) scale(1.20);
+}
+.cardDeckSafeLeft {
+--y: calc(-50% + 20px);
+transform: translate(-150%, var(--y)) scale(1.20);
+}
+
+.cardRiskyRight {
+  --y: calc(-50% + 20px);
+  transform: translate(50%, var(--y)) scale(1.20);
+}
+.cardRiskyLeft {
+--y: calc(-50% + 20px);
+transform: translate(-150%, var(--y)) scale(1.20);
+}
+.cardSafeRight {
+  --y: calc(-50% + 20px);
+  transform: translate(50%, var(--y)) scale(1.20);
+}
+.cardSafeLeft {
+--y: calc(-50% + 20px);
+transform: translate(-150%, var(--y)) scale(1.20);
+}
+
+/*------------ ANIMATIONS ------------*/
+
+/*------------ Stack ------------*/
+
+@keyframes hideStack {
+
+1%{
+  visibility: hidden;
+}
+100%{
+  visibility: hidden;
+}
+
+}
+
+
+@keyframes hideStackConclusion {
+
+  1%{
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  100%{
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  }
+
+/*------------ Buttons ------------*/
+
+/* Standard ones */
+
+@keyframes showNextTrialChosenRiskyLeft {
+  1%{
+    visibility: visible;
+  }
+  100%{
+    visibility: visible;
+  }
+}
+@keyframes showNextTrialChosenRiskyRight {
+  1%{
+    visibility: visible;
+  }
+  100%{
+    visibility: visible;
+  }
+}
+
+@keyframes showNextTrialChosenSafeLeft {
+  1%{
+    visibility: visible;
+  }
+  100%{
+    visibility: visible;
+  }
+}
+@keyframes showNextTrialChosenSafeRight {
+  1%{
+    visibility: visible;
+  }
+  100%{
+    visibility: visible;
+  }
+}
+
+@keyframes showForgoneNextTrialChosenRiskyLeft {
+  1%{
+    visibility: visible;
+  }
+  100%{
+    visibility: visible;
+  }
+}
+@keyframes showForgoneNextTrialChosenRiskyRight {
+  1%{
+    visibility: visible;
+  }
+  100%{
+    visibility: visible;
+  }
+}
+
+@keyframes showForgoneNextTrialChosenSafeLeft {
+  1%{
+    visibility: visible;
+  }
+  100%{
+    visibility: visible;
+  }
+}
+@keyframes showForgoneNextTrialChosenSafeRight {
+  1%{
+    visibility: visible;
+  }
+  100%{
+    visibility: visible;
+  }
+}
+
+@keyframes hideNextTrialChosenRiskyLeft {
+  1%{
+    visibility: hidden;
+  }
+  100%{
+    visibility: hidden;
+  }
+}
+@keyframes hideNextTrialChosenRiskyRight {
+  1%{
+    visibility: hidden;
+  }
+  100%{
+    visibility: hidden;
+  }
+}
+
+@keyframes hideNextTrialChosenSafeLeft {
+  1%{
+    visibility: hidden;
+  }
+  100%{
+    visibility: hidden;
+  }
+}
+@keyframes hideNextTrialChosenSafeRight {
+  1%{
+    visibility: hidden;
+  }
+  100%{
+    visibility: hidden;
+  }
+}
+
+@keyframes hideForgoneNextTrialChosenRiskyLeft {
+  1%{
+    visibility: hidden;
+  }
+  100%{
+    visibility: hidden;
+  }
+}
+@keyframes hideForgoneNextTrialChosenRiskyRight {
+  1%{
+    visibility: hidden;
+  }
+  100%{
+    visibility: hidden;
+  }
+}
+
+@keyframes hideForgoneNextTrialChosenSafeLeft {
+  1%{
+    visibility: hidden;
+  }
+  100%{
+    visibility: hidden;
+  }
+}
+@keyframes hideForgoneNextTrialChosenSafeRight {
+  1%{
+    visibility: hidden;
+  }
+  100%{
+    visibility: hidden;
+  }
+}
+
+
+/* Last trial */
+
+@keyframes showLastTrialChosenRiskyLeft {
+  1%{
+    visibility: visible;
+  }
+  100%{
+    visibility: visible;
+  }
+}
+@keyframes showLastTrialChosenRiskyRight {
+  1%{
+    visibility: visible;
+  }
+  100%{
+    visibility: visible;
+  }
+}
+
+@keyframes showLastTrialChosenSafeLeft {
+  1%{
+    visibility: visible;
+  }
+  100%{
+    visibility: visible;
+  }
+}
+@keyframes showLastTrialChosenSafeRight {
+  1%{
+    visibility: visible;
+  }
+  100%{
+    visibility: visible;
+  }
+}
+
+@keyframes showForgoneLastTrialChosenRiskyLeft {
+  1%{
+    visibility: visible;
+  }
+  100%{
+    visibility: visible;
+  }
+}
+@keyframes showForgoneLastTrialChosenRiskyRight {
+  1%{
+    visibility: visible;
+  }
+  100%{
+    visibility: visible;
+  }
+}
+
+@keyframes showForgoneLastTrialChosenSafeLeft {
+  1%{
+    visibility: visible;
+  }
+  100%{
+    visibility: visible;
+  }
+}
+@keyframes showForgoneLastTrialChosenSafeRight {
+  1%{
+    visibility: visible;
+  }
+  100%{
+    visibility: visible;
+  }
+}
+
+@keyframes hideLastTrialChosenRiskyLeft {
+  1%{
+    visibility: hidden;
+  }
+  100%{
+    visibility: hidden;
+  }
+}
+@keyframes hideLastTrialChosenRiskyRight {
+  1%{
+    visibility: hidden;
+  }
+  100%{
+    visibility: hidden;
+  }
+}
+
+@keyframes hideLastTrialChosenSafeLeft {
+  1%{
+    visibility: hidden;
+  }
+  100%{
+    visibility: hidden;
+  }
+}
+@keyframes hideLastTrialChosenSafeRight {
+  1%{
+    visibility: hidden;
+  }
+  100%{
+    visibility: hidden;
+  }
+}
+
+@keyframes hideForgoneLastTrialChosenRiskyLeft {
+  1%{
+    visibility: hidden;
+  }
+  100%{
+    visibility: hidden;
+  }
+}
+@keyframes hideForgoneLastTrialChosenRiskyRight {
+  1%{
+    visibility: hidden;
+  }
+  100%{
+    visibility: hidden;
+  }
+}
+
+@keyframes hideForgoneLastTrialChosenSafeLeft {
+  1%{
+    visibility: hidden;
+  }
+  100%{
+    visibility: hidden;
+  }
+}
+@keyframes hideForgoneLastTrialChosenSafeRight {
+  1%{
+    visibility: hidden;
+  }
+  100%{
+    visibility: hidden;
+  }
+}
+
+
+/*------------ Texts ------------*/
+
+@keyframes showTextLeft {
+  1% {
+    visibility: visible;
+    opacity: 0;
+    cursor: default;
+  }
+  50% {
+    visibility: visible;
+    opacity: 0.5;
+    cursor: default;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+    cursor: default;
+  }
+}
+
+
+@keyframes showTextRight {
+  1% {
+    visibility: visible;
+    opacity: 0;
+    cursor: default;
+  }
+  50% {
+    visibility: visible;
+    opacity: 0.5;
+    cursor: default;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+    cursor: default;
+  }
+}
+
+@keyframes resetLeftText {
+  100% {
+    visibility: hidden;
+  }
+}
+
+@keyframes resetRightText {
+  100% {
+    visibility: hidden;
+  }
+}
+
+
+/*------------ Card labels ------------*/
+
+@keyframes showRiskyLabelLeft {
+  100% {
+    visibility: visible;
+  }
+}
+@keyframes showRiskyLabelRight {
+  100% {
+    visibility: visible;
+  }
+}
+@keyframes showSafeLabelLeft {
+  100% {
+    visibility: visible;
+  }
+}
+@keyframes showSafeLabelRight {
+  100% {
+    visibility: visible;
+  }
+}
+
+@keyframes hideRiskyLabelLeft {
+  100% {
+    visibility: hidden;
+  }
+}
+@keyframes hideRiskyLabelRight {
+  100% {
+    visibility: hidden;
+  }
+}
+@keyframes hideSafeLabelLeft {
+  100% {
+    visibility: hidden;
+  }
+}
+@keyframes hideSafeLabelRight {
+  100% {
+    visibility: hidden;
+  }
+}
+
+
+
+/*------------ Risky Left card ------------*/
+
+@keyframes shuffleRiskyLeft {
+  50% {
+      transform: translate(-300px, -45%) scale(1.10) rotate(-5deg);
+      animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translate(-200px, -45%) scale(1.07);
+    animation-timing-function: ease-in;
+    z-index: -1;
+  }
+}
+
+@keyframes turnRiskyLeft {
+  1% {
+    background: white;
+    cursor: default;
+}
+  100% {
+        transform: translate(-150%, -10%) scale(1.20);
+        animation-timing-function: ease-in;
+        background: white;
+        cursor: default;
+    }
+}
+
+@keyframes resetRiskyLeftCard {
+  1% {
+    background: url("https://raw.githubusercontent.com/aleBogani/CFTCuriosity/main/BackRisky1.png"); no-repeat center center;
+  }
+}
+
+@keyframes showRiskyLeftCard {
+  1%{
+    visibility: visible;
+  }
+  100%{
+    visibility: visible;
+  }
+}
+@keyframes hideRiskyLeftCard {
+  1%{
+    visibility: hidden;
+  }
+  100%{
+    visibility: hidden;
+  }
+}
+
+@keyframes showRiskyLeftCardDeck {
+  1%{
+    visibility: visible;
+  }
+  100%{
+    visibility: visible;
+  }
+}
+@keyframes hideRiskyLeftCardDeck {
+  1%{
+    visibility: hidden;
+  }
+  100%{
+    visibility: hidden;
+  }
+}
+
+
+/*------------ Risky Right card ------------*/
+
+@keyframes shuffleRiskyRight {
+  50% {
+      transform: translate(180px, -45%) scale(1.10) rotate(5deg);
+      animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translate(100px, -45%) scale(1.07);
+    z-index: -1;
+  }
+}
+
+@keyframes turnRiskyRight {
+  1% {
+    background: white;
+    cursor: default;
+}
+  100% {
+    transform: translate(50%, -10%) scale(1.20);
+    animation-timing-function: ease-in;
+    background: white;
+    cursor: default;
+  }
+}
+
+@keyframes resetRiskyRightCard {
+  1% {
+    background: url("https://raw.githubusercontent.com/aleBogani/CFTCuriosity/main/BackRisky1.png"); no-repeat center center;
+  }
+}
+
+
+@keyframes showRiskyRightCard {
+  1%{
+    visibility: visible;
+  }
+  100%{
+    visibility: visible;
+  }
+}
+@keyframes hideRiskyRightCard {
+  1%{
+    visibility: hidden;
+  }
+  100%{
+    visibility: hidden;
+  }
+}
+
+@keyframes showRiskyRightCardDeck {
+  1%{
+    visibility: visible;
+  }
+  100%{
+    visibility: visible;
+  }
+}
+@keyframes hideRiskyRightCardDeck {
+  1%{
+    visibility: hidden;
+  }
+  100%{
+    visibility: hidden;
+  }
+}
+
+
+/*------------ Safe Left card ------------*/
+
+@keyframes shuffleSafeLeft {
+  50% {
+      transform: translate(-300px, -45%) scale(1.10) rotate(-5deg);
+      animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translate(-200px, -45%) scale(1.07);
+    animation-timing-function: ease-in;
+    z-index: -1;
+  }
+}
+
+@keyframes turnSafeLeft {
+  1% {
+    background: white;
+    cursor: default;
+}
+  100% {
+        transform: translate(-150%, -10%) scale(1.20);
+        animation-timing-function: ease-in;
+        background: white;
+        cursor: default;
+    }
+}
+
+@keyframes resetSafeLeftCard {
+  1% {
+    background: url("https://raw.githubusercontent.com/aleBogani/CFTCuriosity/main/BackSafe1.png"); no-repeat center center;
+  }
+}
+
+
+@keyframes showSafeLeftCard {
+  1%{
+    visibility: visible;
+  }
+  100%{
+    visibility: visible;
+  }
+}
+@keyframes hideSafeLeftCard {
+  1%{
+    visibility: hidden;
+  }
+  100%{
+    visibility: hidden;
+  }
+}
+
+@keyframes showSafeLeftCardDeck {
+  1%{
+    visibility: visible;
+  }
+  100%{
+    visibility: visible;
+  }
+}
+@keyframes hideSafeLeftCardDeck {
+  1%{
+    visibility: hidden;
+  }
+  100%{
+    visibility: hidden;
+  }
+}
+
+
+/*------------ Risky Right card ------------*/
+
+@keyframes shuffleSafeRight {
+  50% {
+      transform: translate(180px, -45%) scale(1.10) rotate(5deg);
+      animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translate(100px, -45%) scale(1.07);
+    z-index: -1;
+  }
+}
+
+@keyframes turnSafeRight {
+  1% {
+    background: white;
+    cursor: default;
+}
+  100% {
+    transform: translate(50%, -10%) scale(1.20);
+    animation-timing-function: ease-in;
+    background: white;
+    cursor: default;
+  }
+}
+
+@keyframes resetSafeRightCard {
+  1% {
+    background: url("https://raw.githubusercontent.com/aleBogani/CFTCuriosity/main/BackSafe1.png"); no-repeat center center;
+  }
+}
+
+@keyframes showSafeRightCard {
+  1%{
+    visibility: visible;
+  }
+  100%{
+    visibility: visible;
+  }
+}
+@keyframes hideSafeRightCard {
+  1%{
+    visibility: hidden;
+  }
+  100%{
+    visibility: hidden;
+  }
+}
+
+@keyframes showSafeRightCardDeck {
+  1%{
+    visibility: visible;
+  }
+  100%{
+    visibility: visible;
+  }
+}
+@keyframes hideSafeRightCardDeck {
+  1%{
+    visibility: hidden;
+  }
+  100%{
+    visibility: hidden;
+  }
+}
